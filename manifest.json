@@ -1,0 +1,21 @@
+{
+    "name" : "Title Display",
+    "description" : "A title display extension",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "permissions" : [
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16" : "/images/title.png",
+        "32" : "/images/title.png",
+        "48" : "/images/title.png"
+    }
+}
